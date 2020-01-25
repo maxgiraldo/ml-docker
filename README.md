@@ -4,5 +4,5 @@ Barebones environment for doing machine learning in Python. Based off of [`jupyt
 
 ## Note on volumes
 
-The `aliases.sh` file lists a command for running the container with a volume so that you can keep the work you do in the notebook. If you run the container without specifying this, then you will lose your work.
+If you wish to save the state of your container, then I recommend using volumes. The `aliases.sh` file lists a command for running the container with a volume so that you can save your state.
 
